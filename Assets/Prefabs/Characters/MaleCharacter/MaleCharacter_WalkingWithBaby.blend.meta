@@ -1,0 +1,980 @@
+fileFormatVersion: 2
+guid: 1132a88a7dbe44932a22c07641e81654
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: arm_hinge_L
+    100002: arm_hinge_R
+    100004: arm_socket_L
+    100006: arm_socket_R
+    100008: breast_L
+    100010: breast_R
+    100012: chest
+    100014: chest-1
+    100016: clavicle_L
+    100018: clavicle_R
+    100020: CustomShapes
+    100022: Cylinder
+    100024: DEF-chest
+    100026: DEF-chest-1
+    100028: DEF-clavicle_L
+    100030: DEF-clavicle_R
+    100032: DEF-deltoid_L
+    100034: DEF-deltoid_R
+    100036: DEF-eye_L
+    100038: DEF-eye_R
+    100040: DEF-f_index_01_L
+    100042: DEF-f_index_01_R
+    100044: DEF-f_index_02_L
+    100046: DEF-f_index_02_R
+    100048: DEF-f_index_03_L
+    100050: DEF-f_index_03_R
+    100052: DEF-f_middle_01_L
+    100054: DEF-f_middle_01_R
+    100056: DEF-f_middle_02_L
+    100058: DEF-f_middle_02_R
+    100060: DEF-f_middle_03_L
+    100062: DEF-f_middle_03_R
+    100064: DEF-f_pinky_01_L
+    100066: DEF-f_pinky_01_R
+    100068: DEF-f_pinky_02_L
+    100070: DEF-f_pinky_02_R
+    100072: DEF-f_pinky_03_L
+    100074: DEF-f_pinky_03_R
+    100076: DEF-f_ring_01_L
+    100078: DEF-f_ring_01_R
+    100080: DEF-f_ring_02_L
+    100082: DEF-f_ring_02_R
+    100084: DEF-f_ring_03_L
+    100086: DEF-f_ring_03_R
+    100088: DEF-femoris_L
+    100090: DEF-femoris_R
+    100092: DEF-foot_L
+    100094: DEF-foot_R
+    100096: DEF-forearm_01_L
+    100098: DEF-forearm_01_R
+    100100: DEF-forearm_02_L
+    100102: DEF-forearm_02_R
+    100104: DEF-forearm_03_L
+    100106: DEF-forearm_03_R
+    100108: DEF-gluteus_L
+    100110: DEF-gluteus_R
+    100112: DEF-hand_L
+    100114: DEF-hand_R
+    100116: DEF-head
+    100118: DEF-hips
+    100120: DEF-jaw
+    100122: DEF-lat_dorsi_L
+    100124: DEF-lat_dorsi_R
+    100126: DEF-lolid_L
+    100128: DEF-lolid_R
+    100130: DEF-neck
+    100132: DEF-palm_index_L
+    100134: DEF-palm_index_R
+    100136: DEF-palm_middle_L
+    100138: DEF-palm_middle_R
+    100140: DEF-palm_pinky_L
+    100142: DEF-palm_pinky_R
+    100144: DEF-palm_ring_L
+    100146: DEF-palm_ring_R
+    100148: DEF-pectoralis_L
+    100150: DEF-pectoralis_R
+    100152: DEF-platysma_L
+    100154: DEF-platysma_R
+    100156: DEF-quadriceps_L
+    100158: DEF-quadriceps_R
+    100160: DEF-scapula_L
+    100162: DEF-scapula_R
+    100164: DEF-shin_01_L
+    100166: DEF-shin_01_R
+    100168: DEF-shin_02_L
+    100170: DEF-shin_02_R
+    100172: DEF-shin_03_L
+    100174: DEF-shin_03_R
+    100176: DEF-soleus_L
+    100178: DEF-soleus_R
+    100180: DEF-spine
+    100182: DEF-spine-1
+    100184: DEF-stomach
+    100186: DEF-thigh_L
+    100188: DEF-thigh_R
+    100190: DEF-thumb_01_L
+    100192: DEF-thumb_01_R
+    100194: DEF-thumb_02_L
+    100196: DEF-thumb_02_R
+    100198: DEF-thumb_03_L
+    100200: DEF-thumb_03_R
+    100202: DEF-toe_L
+    100204: DEF-toe_R
+    100206: DEF-tongue_base
+    100208: DEF-tongue_mid
+    100210: DEF-tongue_tip
+    100212: DEF-trapezius1_L
+    100214: DEF-trapezius1_R
+    100216: DEF-trapezius2_L
+    100218: DEF-trapezius2_R
+    100220: DEF-uplid_L
+    100222: DEF-uplid_R
+    100224: DEF-upper_arm_L
+    100226: DEF-upper_arm_R
+    100228: eye_parent_L
+    100230: eye_parent_R
+    100232: f_index_01_L
+    100234: f_index_02_L
+    100236: f_middle_01_R
+    100238: f_middle_02_R
+    100240: f_pinky_01_R
+    100242: f_pinky_02_R
+    100244: f_ring_01_L
+    100246: f_ring_01_R
+    100248: f_ring_02_R
+    100250: forearm_L
+    100252: forearm_R
+    100254: GZM_Ball025
+    100256: GZM_Breast_L
+    100258: GZM_Breast_R
+    100260: GZM_Circle025
+    100262: GZM_CircleChest
+    100264: GZM_CircleHips
+    100266: GZM_CircleSpine
+    100268: GZM_CrownHips
+    100270: GZM_Cube025
+    100272: GZM_FaceHead
+    100274: GZM_FaceJaw
+    100276: GZM_Foot
+    100278: GZM_FootIK
+    100280: GZM_Gaze
+    100282: GZM_Hand
+    100284: GZM_HandIK
+    100286: GZM_Head
+    100288: GZM_Jaw
+    100290: GZM_Knuckle
+    100292: GZM_LoLid
+    100294: GZM_Master
+    100296: GZM_Neck
+    100298: GZM_RevFoot
+    100300: GZM_RevToe
+    100302: GZM_Root
+    100304: GZM_Shoulder
+    100306: GZM_Toe
+    100308: GZM_Tongue
+    100310: GZM_UpLid
+    100312: hand_L
+    100314: hand_R
+    100316: head
+    100318: hips
+    100320: jaw
+    100322: leg_hinge_L
+    100324: leg_hinge_R
+    100326: leg_socket_L
+    100328: leg_socket_R
+    100330: //RootNode
+    100332: MaleCharacter
+    100334: MaleCharacter_Body
+    100336: MaleCharacter_Eyebrow008
+    100338: MaleCharacter_HighPolyEyes
+    100340: MaleCharacter_jeans01
+    100342: MaleCharacter_mhair01
+    100344: MaleCharacter_Shirt01
+    100346: MaleCharacter_shoes02
+    100348: master
+    100350: neck
+    100352: palm_index_L
+    100354: palm_index_R
+    100356: palm_middle_L
+    100358: palm_middle_R
+    100360: palm_pinky_R
+    100362: palm_ring_L
+    100364: palm_ring_R
+    100366: root
+    100368: shin_L
+    100370: shin_R
+    100372: spine
+    100374: spine-1
+    100376: thigh_L
+    100378: thigh_R
+    100380: thumb_01_L
+    100382: thumb_02_L
+    100384: upper_arm_L
+    100386: upper_arm_R
+    400000: arm_hinge_L
+    400002: arm_hinge_R
+    400004: arm_socket_L
+    400006: arm_socket_R
+    400008: breast_L
+    400010: breast_R
+    400012: chest
+    400014: chest-1
+    400016: clavicle_L
+    400018: clavicle_R
+    400020: CustomShapes
+    400022: Cylinder
+    400024: DEF-chest
+    400026: DEF-chest-1
+    400028: DEF-clavicle_L
+    400030: DEF-clavicle_R
+    400032: DEF-deltoid_L
+    400034: DEF-deltoid_R
+    400036: DEF-eye_L
+    400038: DEF-eye_R
+    400040: DEF-f_index_01_L
+    400042: DEF-f_index_01_R
+    400044: DEF-f_index_02_L
+    400046: DEF-f_index_02_R
+    400048: DEF-f_index_03_L
+    400050: DEF-f_index_03_R
+    400052: DEF-f_middle_01_L
+    400054: DEF-f_middle_01_R
+    400056: DEF-f_middle_02_L
+    400058: DEF-f_middle_02_R
+    400060: DEF-f_middle_03_L
+    400062: DEF-f_middle_03_R
+    400064: DEF-f_pinky_01_L
+    400066: DEF-f_pinky_01_R
+    400068: DEF-f_pinky_02_L
+    400070: DEF-f_pinky_02_R
+    400072: DEF-f_pinky_03_L
+    400074: DEF-f_pinky_03_R
+    400076: DEF-f_ring_01_L
+    400078: DEF-f_ring_01_R
+    400080: DEF-f_ring_02_L
+    400082: DEF-f_ring_02_R
+    400084: DEF-f_ring_03_L
+    400086: DEF-f_ring_03_R
+    400088: DEF-femoris_L
+    400090: DEF-femoris_R
+    400092: DEF-foot_L
+    400094: DEF-foot_R
+    400096: DEF-forearm_01_L
+    400098: DEF-forearm_01_R
+    400100: DEF-forearm_02_L
+    400102: DEF-forearm_02_R
+    400104: DEF-forearm_03_L
+    400106: DEF-forearm_03_R
+    400108: DEF-gluteus_L
+    400110: DEF-gluteus_R
+    400112: DEF-hand_L
+    400114: DEF-hand_R
+    400116: DEF-head
+    400118: DEF-hips
+    400120: DEF-jaw
+    400122: DEF-lat_dorsi_L
+    400124: DEF-lat_dorsi_R
+    400126: DEF-lolid_L
+    400128: DEF-lolid_R
+    400130: DEF-neck
+    400132: DEF-palm_index_L
+    400134: DEF-palm_index_R
+    400136: DEF-palm_middle_L
+    400138: DEF-palm_middle_R
+    400140: DEF-palm_pinky_L
+    400142: DEF-palm_pinky_R
+    400144: DEF-palm_ring_L
+    400146: DEF-palm_ring_R
+    400148: DEF-pectoralis_L
+    400150: DEF-pectoralis_R
+    400152: DEF-platysma_L
+    400154: DEF-platysma_R
+    400156: DEF-quadriceps_L
+    400158: DEF-quadriceps_R
+    400160: DEF-scapula_L
+    400162: DEF-scapula_R
+    400164: DEF-shin_01_L
+    400166: DEF-shin_01_R
+    400168: DEF-shin_02_L
+    400170: DEF-shin_02_R
+    400172: DEF-shin_03_L
+    400174: DEF-shin_03_R
+    400176: DEF-soleus_L
+    400178: DEF-soleus_R
+    400180: DEF-spine
+    400182: DEF-spine-1
+    400184: DEF-stomach
+    400186: DEF-thigh_L
+    400188: DEF-thigh_R
+    400190: DEF-thumb_01_L
+    400192: DEF-thumb_01_R
+    400194: DEF-thumb_02_L
+    400196: DEF-thumb_02_R
+    400198: DEF-thumb_03_L
+    400200: DEF-thumb_03_R
+    400202: DEF-toe_L
+    400204: DEF-toe_R
+    400206: DEF-tongue_base
+    400208: DEF-tongue_mid
+    400210: DEF-tongue_tip
+    400212: DEF-trapezius1_L
+    400214: DEF-trapezius1_R
+    400216: DEF-trapezius2_L
+    400218: DEF-trapezius2_R
+    400220: DEF-uplid_L
+    400222: DEF-uplid_R
+    400224: DEF-upper_arm_L
+    400226: DEF-upper_arm_R
+    400228: eye_parent_L
+    400230: eye_parent_R
+    400232: f_index_01_L
+    400234: f_index_02_L
+    400236: f_middle_01_R
+    400238: f_middle_02_R
+    400240: f_pinky_01_R
+    400242: f_pinky_02_R
+    400244: f_ring_01_L
+    400246: f_ring_01_R
+    400248: f_ring_02_R
+    400250: forearm_L
+    400252: forearm_R
+    400254: GZM_Ball025
+    400256: GZM_Breast_L
+    400258: GZM_Breast_R
+    400260: GZM_Circle025
+    400262: GZM_CircleChest
+    400264: GZM_CircleHips
+    400266: GZM_CircleSpine
+    400268: GZM_CrownHips
+    400270: GZM_Cube025
+    400272: GZM_FaceHead
+    400274: GZM_FaceJaw
+    400276: GZM_Foot
+    400278: GZM_FootIK
+    400280: GZM_Gaze
+    400282: GZM_Hand
+    400284: GZM_HandIK
+    400286: GZM_Head
+    400288: GZM_Jaw
+    400290: GZM_Knuckle
+    400292: GZM_LoLid
+    400294: GZM_Master
+    400296: GZM_Neck
+    400298: GZM_RevFoot
+    400300: GZM_RevToe
+    400302: GZM_Root
+    400304: GZM_Shoulder
+    400306: GZM_Toe
+    400308: GZM_Tongue
+    400310: GZM_UpLid
+    400312: hand_L
+    400314: hand_R
+    400316: head
+    400318: hips
+    400320: jaw
+    400322: leg_hinge_L
+    400324: leg_hinge_R
+    400326: leg_socket_L
+    400328: leg_socket_R
+    400330: MaleCharacter
+    400332: //RootNode
+    400334: MaleCharacter_Body
+    400336: MaleCharacter_Eyebrow008
+    400338: MaleCharacter_HighPolyEyes
+    400340: MaleCharacter_jeans01
+    400342: MaleCharacter_mhair01
+    400344: MaleCharacter_Shirt01
+    400346: MaleCharacter_shoes02
+    400348: master
+    400350: neck
+    400352: palm_index_L
+    400354: palm_index_R
+    400356: palm_middle_L
+    400358: palm_middle_R
+    400360: palm_pinky_R
+    400362: palm_ring_L
+    400364: palm_ring_R
+    400366: root
+    400368: shin_L
+    400370: shin_R
+    400372: spine
+    400374: spine-1
+    400376: thigh_L
+    400378: thigh_R
+    400380: thumb_01_L
+    400382: thumb_02_L
+    400384: upper_arm_L
+    400386: upper_arm_R
+    2300000: Cylinder
+    2300002: GZM_Ball025
+    2300004: GZM_Breast_L
+    2300006: GZM_Breast_R
+    2300008: GZM_Circle025
+    2300010: GZM_CircleChest
+    2300012: GZM_CircleHips
+    2300014: GZM_CircleSpine
+    2300016: GZM_CrownHips
+    2300018: GZM_Cube025
+    2300020: GZM_FaceHead
+    2300022: GZM_FaceJaw
+    2300024: GZM_Foot
+    2300026: GZM_FootIK
+    2300028: GZM_Gaze
+    2300030: GZM_Hand
+    2300032: GZM_HandIK
+    2300034: GZM_Head
+    2300036: GZM_Jaw
+    2300038: GZM_Knuckle
+    2300040: GZM_LoLid
+    2300042: GZM_Master
+    2300044: GZM_Neck
+    2300046: GZM_RevFoot
+    2300048: GZM_RevToe
+    2300050: GZM_Root
+    2300052: GZM_Shoulder
+    2300054: GZM_Toe
+    2300056: GZM_Tongue
+    2300058: GZM_UpLid
+    3300000: Cylinder
+    3300002: GZM_Ball025
+    3300004: GZM_Breast_L
+    3300006: GZM_Breast_R
+    3300008: GZM_Circle025
+    3300010: GZM_CircleChest
+    3300012: GZM_CircleHips
+    3300014: GZM_CircleSpine
+    3300016: GZM_CrownHips
+    3300018: GZM_Cube025
+    3300020: GZM_FaceHead
+    3300022: GZM_FaceJaw
+    3300024: GZM_Foot
+    3300026: GZM_FootIK
+    3300028: GZM_Gaze
+    3300030: GZM_Hand
+    3300032: GZM_HandIK
+    3300034: GZM_Head
+    3300036: GZM_Jaw
+    3300038: GZM_Knuckle
+    3300040: GZM_LoLid
+    3300042: GZM_Master
+    3300044: GZM_Neck
+    3300046: GZM_RevFoot
+    3300048: GZM_RevToe
+    3300050: GZM_Root
+    3300052: GZM_Shoulder
+    3300054: GZM_Toe
+    3300056: GZM_Tongue
+    3300058: GZM_UpLid
+    4300000: Cylinder
+    4300002: MaleCharacter_Eyebrow008
+    4300004: MaleCharacter_HighPolyEyes
+    4300006: MaleCharacter_mhair01
+    4300008: MaleCharacter_jeans01
+    4300010: MaleCharacter_Shirt01
+    4300012: MaleCharacter_shoes02
+    4300014: MaleCharacter_Body
+    4300016: GZM_CircleHips
+    4300018: GZM_FaceHead
+    4300020: GZM_Tongue
+    4300022: GZM_LoLid
+    4300024: GZM_Gaze
+    4300026: GZM_Root
+    4300028: GZM_Neck
+    4300030: GZM_Foot
+    4300032: GZM_RevToe
+    4300034: GZM_Cube025
+    4300036: GZM_Breast_R
+    4300038: GZM_Toe
+    4300040: GZM_Knuckle
+    4300042: GZM_UpLid
+    4300044: GZM_Hand
+    4300046: GZM_Circle025
+    4300048: GZM_HandIK
+    4300050: GZM_Breast_L
+    4300052: GZM_Jaw
+    4300054: GZM_RevFoot
+    4300056: GZM_Master
+    4300058: GZM_Ball025
+    4300060: GZM_CrownHips
+    4300062: GZM_FootIK
+    4300064: GZM_CircleChest
+    4300066: GZM_FaceJaw
+    4300068: GZM_Shoulder
+    4300070: GZM_CircleSpine
+    4300072: GZM_Head
+    7400000: Default Take
+    7400002: Walking
+    9500000: //RootNode
+    13700000: MaleCharacter_Body
+    13700002: MaleCharacter_Eyebrow008
+    13700004: MaleCharacter_HighPolyEyes
+    13700006: MaleCharacter_jeans01
+    13700008: MaleCharacter_mhair01
+    13700010: MaleCharacter_Shirt01
+    13700012: MaleCharacter_shoes02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walking
+      takeName: Walking
+      firstFrame: -1
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Cylinder
+        weight: 1
+      - path: MaleCharacter
+        weight: 1
+      - path: MaleCharacter/CustomShapes
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Ball025
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Breast_L
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Breast_R
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Circle025
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_CircleChest
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_CircleHips
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_CircleSpine
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_CrownHips
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Cube025
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_FaceHead
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_FaceJaw
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Foot
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_FootIK
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Gaze
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Hand
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_HandIK
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Head
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Jaw
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Knuckle
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_LoLid
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Master
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Neck
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_RevFoot
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_RevToe
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Root
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Shoulder
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Toe
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_Tongue
+        weight: 1
+      - path: MaleCharacter/CustomShapes/GZM_UpLid
+        weight: 1
+      - path: MaleCharacter/master
+        weight: 1
+      - path: MaleCharacter/master/root
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/DEF-upper_arm_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/DEF-forearm_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/DEF-forearm_01_L/DEF-forearm_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/DEF-forearm_01_L/DEF-forearm_02_L/DEF-forearm_03_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/DEF-forearm_01_L/DEF-forearm_02_L/DEF-forearm_03_L/DEF-hand_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/DEF-lat_dorsi_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_index_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_middle_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_pinky_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_pinky_L/DEF-f_pinky_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_pinky_L/DEF-f_pinky_01_L/DEF-f_pinky_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_pinky_L/DEF-f_pinky_01_L/DEF-f_pinky_02_L/DEF-f_pinky_03_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_ring_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-palm_ring_L/DEF-f_ring_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-thumb_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/DEF-thumb_01_L/DEF-thumb_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_index_L/DEF-f_index_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/DEF-f_index_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/DEF-f_index_03_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/DEF-f_middle_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/DEF-f_middle_01_L/DEF-f_middle_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/DEF-f_middle_01_L/DEF-f_middle_02_L/DEF-f_middle_03_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/DEF-f_ring_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/DEF-f_ring_02_L/DEF-f_ring_03_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_L/arm_socket_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/DEF-thumb_03_L
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/DEF-upper_arm_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/DEF-forearm_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/DEF-forearm_01_R/DEF-forearm_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/DEF-forearm_01_R/DEF-forearm_02_R/DEF-forearm_03_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/DEF-forearm_01_R/DEF-forearm_02_R/DEF-forearm_03_R/DEF-hand_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/DEF-forearm_01_R/DEF-forearm_02_R/DEF-forearm_03_R/DEF-hand_R/DEF-palm_pinky_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/DEF-lat_dorsi_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/DEF-palm_index_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/DEF-palm_middle_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/DEF-palm_ring_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/DEF-palm_ring_R/DEF-f_ring_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/DEF-thumb_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/DEF-thumb_01_R/DEF-thumb_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/DEF-thumb_01_R/DEF-thumb_02_R/DEF-thumb_03_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_index_R/DEF-f_index_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_index_R/DEF-f_index_01_R/DEF-f_index_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_index_R/DEF-f_index_01_R/DEF-f_index_02_R/DEF-f_index_03_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/DEF-f_middle_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/DEF-f_middle_01_R/DEF-f_middle_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/DEF-f_middle_03_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/DEF-f_pinky_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/DEF-f_pinky_01_R/DEF-f_pinky_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/DEF-f_pinky_03_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/DEF-f_ring_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/arm_hinge_R/arm_socket_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/DEF-f_ring_03_R
+        weight: 1
+      - path: MaleCharacter/master/root/DEF-hips
+        weight: 1
+      - path: MaleCharacter/master/root/DEF-spine
+        weight: 1
+      - path: MaleCharacter/master/root/DEF-spine/DEF-spine-1
+        weight: 1
+      - path: MaleCharacter/master/root/DEF-spine/DEF-spine-1/DEF-chest
+        weight: 1
+      - path: MaleCharacter/master/root/hips
+        weight: 1
+      - path: MaleCharacter/master/root/hips/DEF-gluteus_L
+        weight: 1
+      - path: MaleCharacter/master/root/hips/DEF-gluteus_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/DEF-thigh_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/DEF-femoris_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/DEF-quadriceps_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/DEF-shin_01_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/DEF-shin_01_L/DEF-shin_02_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/DEF-shin_01_L/DEF-shin_02_L/DEF-shin_03_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/DEF-shin_01_L/DEF-shin_02_L/DEF-shin_03_L/DEF-foot_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/DEF-shin_01_L/DEF-shin_02_L/DEF-shin_03_L/DEF-foot_L/DEF-toe_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/shin_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_L/leg_socket_L/thigh_L/shin_L/DEF-soleus_L
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/DEF-thigh_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/DEF-femoris_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/DEF-quadriceps_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/DEF-shin_01_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/DEF-shin_01_R/DEF-shin_02_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/DEF-shin_01_R/DEF-shin_02_R/DEF-shin_03_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/DEF-shin_01_R/DEF-shin_02_R/DEF-shin_03_R/DEF-foot_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/DEF-shin_01_R/DEF-shin_02_R/DEF-shin_03_R/DEF-foot_R/DEF-toe_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/shin_R
+        weight: 1
+      - path: MaleCharacter/master/root/leg_hinge_R/leg_socket_R/thigh_R/shin_R/DEF-soleus_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/breast_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/breast_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/clavicle_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/clavicle_L/DEF-deltoid_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/clavicle_L/DEF-scapula_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/clavicle_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/clavicle_R/DEF-deltoid_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/clavicle_R/DEF-scapula_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/DEF-pectoralis_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/DEF-pectoralis_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/DEF-stomach
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/DEF-trapezius2_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/DEF-trapezius2_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/DEF-platysma_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/DEF-platysma_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/DEF-trapezius1_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/DEF-trapezius1_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/DEF-lolid_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/DEF-lolid_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/DEF-uplid_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/DEF-uplid_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/eye_parent_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/eye_parent_L/DEF-eye_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/eye_parent_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/eye_parent_R/DEF-eye_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/jaw
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/jaw/DEF-tongue_base
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/jaw/DEF-tongue_base/DEF-tongue_mid
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/chest-1/neck/head/jaw/DEF-tongue_base/DEF-tongue_mid/DEF-tongue_tip
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/DEF-chest-1
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/DEF-chest-1/DEF-clavicle_L
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/DEF-chest-1/DEF-clavicle_R
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/DEF-chest-1/DEF-neck
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/DEF-chest-1/DEF-neck/DEF-head
+        weight: 1
+      - path: MaleCharacter/master/root/spine/spine-1/chest/DEF-chest-1/DEF-neck/DEF-head/DEF-jaw
+        weight: 1
+      - path: MaleCharacter_Body
+        weight: 1
+      - path: MaleCharacter_Eyebrow008
+        weight: 1
+      - path: MaleCharacter_HighPolyEyes
+        weight: 1
+      - path: MaleCharacter_jeans01
+        weight: 1
+      - path: MaleCharacter_mhair01
+        weight: 1
+      - path: MaleCharacter_Shirt01
+        weight: 1
+      - path: MaleCharacter_shoes02
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

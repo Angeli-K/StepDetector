@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: 0a8d707654854d8499b101cc654dbad2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: 0      011
+    100002: 1      011
+    100004: 10     011
+    100006: 2      011
+    100008: 20     011
+    100010: 26     011
+    100012: 29     011
+    100014: 30     011
+    100016: 31     011
+    100018: 32     011
+    100020: 5      011
+    100022: ATiles001
+    100024: ATiles002
+    100026: ATiles003
+    100028: ATiles004
+    100030: ATiles005
+    100032: ATiles006
+    100034: ATiles007
+    100036: ATiles008
+    100038: ATiles009
+    100040: ATiles010
+    100042: ATiles011
+    100044: Group001
+    100046: //RootNode
+    100048: Object023
+    100050: Object024
+    100052: Object025
+    100054: Object027
+    100056: Object028
+    100058: Object030
+    400000: 0      011
+    400002: 1      011
+    400004: 10     011
+    400006: 2      011
+    400008: 20     011
+    400010: 26     011
+    400012: 29     011
+    400014: 30     011
+    400016: 31     011
+    400018: 32     011
+    400020: 5      011
+    400022: ATiles001
+    400024: ATiles002
+    400026: ATiles003
+    400028: ATiles004
+    400030: ATiles005
+    400032: ATiles006
+    400034: ATiles007
+    400036: ATiles008
+    400038: ATiles009
+    400040: ATiles010
+    400042: ATiles011
+    400044: Group001
+    400046: //RootNode
+    400048: Object023
+    400050: Object024
+    400052: Object025
+    400054: Object027
+    400056: Object028
+    400058: Object030
+    2300000: 0      011
+    2300002: 1      011
+    2300004: 10     011
+    2300006: 2      011
+    2300008: 20     011
+    2300010: 26     011
+    2300012: 29     011
+    2300014: 30     011
+    2300016: 31     011
+    2300018: 32     011
+    2300020: 5      011
+    2300022: ATiles001
+    2300024: ATiles002
+    2300026: ATiles003
+    2300028: ATiles004
+    2300030: ATiles005
+    2300032: ATiles006
+    2300034: ATiles007
+    2300036: ATiles008
+    2300038: ATiles009
+    2300040: ATiles010
+    2300042: ATiles011
+    2300044: Object023
+    2300046: Object024
+    2300048: Object025
+    2300050: Object027
+    2300052: Object028
+    2300054: Object030
+    3300000: 0      011
+    3300002: 1      011
+    3300004: 10     011
+    3300006: 2      011
+    3300008: 20     011
+    3300010: 26     011
+    3300012: 29     011
+    3300014: 30     011
+    3300016: 31     011
+    3300018: 32     011
+    3300020: 5      011
+    3300022: ATiles001
+    3300024: ATiles002
+    3300026: ATiles003
+    3300028: ATiles004
+    3300030: ATiles005
+    3300032: ATiles006
+    3300034: ATiles007
+    3300036: ATiles008
+    3300038: ATiles009
+    3300040: ATiles010
+    3300042: ATiles011
+    3300044: Object023
+    3300046: Object024
+    3300048: Object025
+    3300050: Object027
+    3300052: Object028
+    3300054: Object030
+    4300000: ATiles001
+    4300002: ATiles002
+    4300004: ATiles003
+    4300006: ATiles004
+    4300008: ATiles005
+    4300010: ATiles006
+    4300012: ATiles007
+    4300014: ATiles008
+    4300016: ATiles009
+    4300018: ATiles010
+    4300020: ATiles011
+    4300022: Object023
+    4300024: Object024
+    4300026: Object025
+    4300028: Object027
+    4300030: Object028
+    4300032: Object030
+    4300034: 0      011
+    4300036: 1      011
+    4300038: 2      011
+    4300040: 5      011
+    4300042: 30     011
+    4300044: 10     011
+    4300046: 31     011
+    4300048: 20     011
+    4300050: 26     011
+    4300052: 29     011
+    4300054: 32     011
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: fda61e4de86e18e459f32bcd8dc60916
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: balcony_ba
+    100002: barrels_b1
+    100004: barrels_ba
+    100006: boards_boa
+    100008: boards_sup
+    100010: chimneys_1
+    100012: chimneys_c
+    100014: cover_wind
+    100016: doors_door
+    100018: foundation
+    100020: gutters_gu
+    100022: //RootNode
+    100024: parapets_p
+    100026: roof_roof_
+    100028: roof_suppo
+    100030: sub01
+    100032: sub02
+    100034: sub03
+    100036: walls_wall
+    100038: window_ro1
+    100040: window_roo
+    100042: windows_w1
+    100044: windows_wi
+    400000: balcony_ba
+    400002: barrels_b1
+    400004: barrels_ba
+    400006: boards_boa
+    400008: boards_sup
+    400010: chimneys_1
+    400012: chimneys_c
+    400014: cover_wind
+    400016: doors_door
+    400018: foundation
+    400020: gutters_gu
+    400022: //RootNode
+    400024: parapets_p
+    400026: roof_roof_
+    400028: roof_suppo
+    400030: sub01
+    400032: sub02
+    400034: sub03
+    400036: walls_wall
+    400038: window_ro1
+    400040: window_roo
+    400042: windows_w1
+    400044: windows_wi
+    2300000: balcony_ba
+    2300002: barrels_b1
+    2300004: barrels_ba
+    2300006: boards_boa
+    2300008: boards_sup
+    2300010: chimneys_1
+    2300012: chimneys_c
+    2300014: cover_wind
+    2300016: doors_door
+    2300018: foundation
+    2300020: gutters_gu
+    2300022: parapets_p
+    2300024: roof_suppo
+    2300026: sub03
+    2300028: walls_wall
+    2300030: window_ro1
+    2300032: window_roo
+    2300034: windows_w1
+    2300036: windows_wi
+    3300000: balcony_ba
+    3300002: barrels_b1
+    3300004: barrels_ba
+    3300006: boards_boa
+    3300008: boards_sup
+    3300010: chimneys_1
+    3300012: chimneys_c
+    3300014: cover_wind
+    3300016: doors_door
+    3300018: foundation
+    3300020: gutters_gu
+    3300022: parapets_p
+    3300024: roof_suppo
+    3300026: sub03
+    3300028: walls_wall
+    3300030: window_ro1
+    3300032: window_roo
+    3300034: windows_w1
+    3300036: windows_wi
+    4300000: sub03
+    4300002: gutters_gu
+    4300004: barrels_ba
+    4300006: barrels_b1
+    4300008: balcony_ba
+    4300010: cover_wind
+    4300012: chimneys_c
+    4300014: chimneys_1
+    4300016: boards_sup
+    4300018: boards_boa
+    4300020: roof_suppo
+    4300022: foundation
+    4300024: doors_door
+    4300026: parapets_p
+    4300028: windows_wi
+    4300030: windows_w1
+    4300032: walls_wall
+    4300034: window_roo
+    4300036: window_ro1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
